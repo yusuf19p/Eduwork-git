@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tugas JS Function</title>
+</head>
+<body>
+    <p id="latihan"></p>
+
+    <script>
+        const person = {
+        firstName: "John",
+        lastName: "Doe",
+        alert: function () {
+            alert("Be careful " + this.firstName + " " + this.lastName + "!")
+        }
+        };
+
+        document.getElementById("latihan").innerHTML = person.alert();
+    </script>
+</body>
+</html>
