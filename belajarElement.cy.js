@@ -7,6 +7,5 @@ describe('Working with input',{ testIsolation: false },() => {
     });
     it('Should fill checkbox', () => {                       
         cy.get('#user_remember_me').check()
-        cy.get('#user_remember_me').type('checkbox')
     });
 });
