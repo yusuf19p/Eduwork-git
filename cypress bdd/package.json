@@ -1,0 +1,24 @@
+{
+  "name": "edubdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "yusuf",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.13.0",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^17.2.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "esbuild": "^0.17.19"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "**/stepDef/*.js"
+  },
+  "scripts": {
+    "cy.open": "cypress open"
+  }
+}
