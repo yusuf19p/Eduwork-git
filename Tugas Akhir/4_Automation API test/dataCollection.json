@@ -1,0 +1,26 @@
+{
+  "create": {
+    "name": "Si Pitung",
+    "email": "pitung99@example.com",
+    "gender": "male",
+    "status": "inactive"
+  },
+  "update": {
+    "name": "Si Pitung Jagoan",
+    "email": "pitung86@example.com",
+    "gender": "male",
+    "status": "active"
+  },
+  "post": {
+    "title": "Doing API test with go rest",
+    "body": "Go rest adalah penyedia layanan api bagi orang-orang yang baru memulai dunia testing, go rest punya banyak variasi metode mulai dari get post put delete."
+  },
+  "comments": {
+    "email": "penguasa@example.com",
+    "body": "sebaik-baik penguasa ialah yang mendengarkan keluh kesah masyarakatnya, karena sejatinya penguasa adalah representatif masyarakat."
+  },
+  "todos": {
+    "title": "Testing API with go rest for the best experience",
+    "status": "pending"
+  }
+}
